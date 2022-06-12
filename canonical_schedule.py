@@ -17,7 +17,7 @@ def check_canonical(n, p, l):
     else:
         return bool(False)
 
-def canonical(n):
+def main(n):
     p = []
     l = []
     while n != 1:

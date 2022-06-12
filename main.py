@@ -1,12 +1,11 @@
 import numpy as np
 import math as m
 
-from canonical import canonical
+from silver_pohlig_hellman import main as sph
 
 
 def main():
-    n = 
-    canonical(n)
+    sph(n alpha, betha)
 
 if __name__ == '__main__':
     main()
